@@ -4,5 +4,7 @@
     <string name="hello_world">Hello world!</string>
     <string name="action_settings">Settings</string>
     <integer name="com_vk_sdk_AppId">5047679</integer>
+    <string name="title_activity_login">LoginActivity</string>
+    <string name="title_activity_work">WorkActivity</string>
 
 </resources>
