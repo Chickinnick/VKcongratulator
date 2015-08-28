@@ -20,6 +20,9 @@ android {
 }
 repositories {
     mavenCentral()
+    flatDir{
+        dirs 'libs'
+    }
 }
 dependencies {
     compile fileTree(dir: 'libs', include: ['*.jar'])
@@ -29,4 +32,5 @@ dependencies {
         transitive = true
     }
     compile 'com.github.paolorotolo:appintro:3.2.0'
+    compile 'uk.me.lewisdeane.ldialogs:dlib@aar'
 }
